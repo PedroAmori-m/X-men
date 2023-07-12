@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men - Semana do Zero ao Programador Contratado </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./SRC/css/reset.css">
+    <link rel="stylesheet" href="./SRC/css/estilos.css">
+    <link rel="stylesheet" href="./SRC/css/responsivo.css">
+
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./SRC/imagens/logo.svg" alt="Logo dos X-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um Personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Ciclope possui a habilidade mutante de projetar um feixe de força de concussão de cor rubi de seus olhos.">
+                    <img src="./SRC/imagens/card-ciclope.jpg" alt="Personagem Ciclope">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Uma Telepata Nível Alfa e uma Mutante Nível Alfa.Enquanto ela era a Fênix Negra, foi afirmado que ela era uma ameaça global.">
+                    <img src="./SRC/imagens/card-jean-grey.jpg" alt="Personagem Jean Grey">
+                </li>
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description="Kitty é uma mutante com a capacidade de passar pela matéria sólida, passando suas partículas atômicas pelos espaços entre os átomos do objeto pelo qual ela está se movendo.">
+                    <img src="./SRC/imagens/card-lince-negra.jpg" alt="Personagem Lince Negra">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto" data-description="Magneto possui o poder de manipular qualquer tipo de metal, inclusive Vibranium e Adamantium.">
+                    <img src="./SRC/imagens/card-magneto.jpg" alt="Personagem Magneto">
+                </li>
+                <li class="personagem" id="noturno" data-name="Noturno" data-description="Seus poderes mutantes incluem teletransporte, super agilidade, aderência física, visão noturna, habilidades acrobáticas e a habilidade de fundir-se com as sombras.">
+                    <img src="./SRC/imagens/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Ororo é uma mutante nivel Ômega. Uma das principais fontes de seus poderes é o campo eletromagnético da Terra.">
+                    <img src="./SRC/imagens/card-tempestade.jpg" alt="Personagem Tempestade">
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira" data-description="Através do contato físico, Vampira absorve a energia vital, as memórias, pensamentos, habilidades físicas, mentais, normais ou especiais que a vítima possui, além dos seus super-poderes, sejam mutantes ou não.">
+                    <img src="./SRC/imagens/card-vampira.jpg" alt="Personagem Vampira">
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Fisiologia de Homo Superior: Wolverine era um mutante que recebeu um esqueleto inquebrável pelo Programa Arma X e aprimorado pelo Apocalipse.">
+                    <img src="./SRC/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+            </ul>
+        </section>
+        <section class=" personagem-selecionado">
+            <img class="personagem-grande" src="./SRC/imagens/card-ciclope.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Scott Summers</p>
+            </div>
+            
+
+        </section>
+    </main>
+    <script src="./SRC/js/index.js"></script>
+</body>
+
+</html>
